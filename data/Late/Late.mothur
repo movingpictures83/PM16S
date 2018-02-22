@@ -30,7 +30,7 @@ count.seqs(name=current, group=current)
 #summary.seqs(fasta=silva.v4.fasta)
 #    b. Align to simplified reference pipelines/P-M16S/database
 #align.seqs(fasta=pipelines/P-M16S/data/Late/Late.trim.contigs.good.unique.fasta, reference=pipelines/P-M16S/data/Late/silva.v4.fasta)
-align.seqs(fasta=pipelines/P-M16S/data/Late/Late.trim.contigs.good.unique.fasta, reference=pipelines/P-M16S/input/silva.bacteria.fasta)
+align.seqs(fasta=pipelines/P-M16S/data/Late/Late.trim.contigs.good.unique.fasta, reference=pipelines/P-M16S/silva.bacteria.fasta)
 summary.seqs(fasta=pipelines/P-M16S/data/Late/Late.trim.contigs.good.unique.align, count=pipelines/P-M16S/data/Late/Late.trim.contigs.good.count_table)
 # Step 5: Remove sequences that do not align to the same region (TMC I believe this will differ between runs)a
 screen.seqs(fasta=pipelines/P-M16S/data/Late/Late.trim.contigs.good.unique.align, count=pipelines/P-M16S/data/Late/Late.trim.contigs.good.count_table, summary=pipelines/P-M16S/data/Late/Late.trim.contigs.good.unique.summary, start=13862, end=23444, maxhomop=8)
