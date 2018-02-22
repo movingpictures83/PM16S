@@ -7,4 +7,4 @@ Plugin Pearson inputfile abundN.csv outputfile corr.csv
 Plugin CSVPad inputfile corr.csv outputfile corrP.csv
 Plugin ATria inputfile corrP.csv  outputfile corrP.ATria.noa
 Plugin CSV2GML inputfile corrP.csv outputfile corrP.gml
-Plugin Cytoscape inputfile corrP.gml outputfile none
+Plugin Cytoscape inputfile network.visualization.txt outputfile none
