@@ -1,5 +1,5 @@
 #!/bin/bash
-
+unzip silva.bacteria.fasta.zip
 git clone https://github.com/movingpictures83/ATria.git ../../plugins/ATria
 git clone https://github.com/movingpictures83/CountTableProcessing.git ../../plugins/CountTableProcessing
 git clone https://github.com/movingpictures83/CSV2GML.git ../../plugins/CSV2GML
