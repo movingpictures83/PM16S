@@ -1,5 +1,5 @@
 # Metagenomics analysis pipeline: Early
-Prefix pipelines/P-M16S/data/Early
+Prefix pipelines/PM16S/data/Early
 Plugin Mothur inputfile Early.mothur outputfile none
 Plugin CountTableProcessing inputfile Early outputfile abund.csv
 Plugin CSVNormalize inputfile abund.csv outputfile abundN.csv
@@ -7,4 +7,4 @@ Plugin Pearson inputfile abundN.csv outputfile corr.csv
 Plugin CSVPad inputfile corr.csv outputfile corrP.csv
 Plugin ATria inputfile corrP.csv  outputfile corrP.ATria.noa
 Plugin CSV2GML inputfile corrP.csv outputfile corrP.gml
-Plugin Cytoscape inputfile network.visualization.txt outputfile none
+#Plugin Cytoscape inputfile network.visualization.txt outputfile none
