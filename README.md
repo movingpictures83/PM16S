@@ -1,5 +1,5 @@
-# P-M16S
-PluMA P-M16S pipeline that performs downstream analysis on 16S mouse gut microbiome data, pre- and post- obesity
+# PM16S
+PluMA PM16S pipeline that performs downstream analysis on 16S mouse gut microbiome data, pre- and post- obesity
 
 Data retrieved from the Mothur Tutorial, available at: https://www.mothur.org/wiki/MiSeq_SOP
 Results of their experiment were published in:
@@ -14,6 +14,6 @@ To run this pipeline in PluMA:
 3. cd ..
 4. Install the (currently) latest versions of Mothur (1.39.5, mothur.org), Cytoscape (3.6.0, cytoscape.org) and SCons (3.0.1, scons.org) and be sure they are in your system PATH.
 5. Run 'scons perl=0'
-6. ./pluma pipelines/P-M16S/config.Early.txt (for pre-obesity)
-   ./pluma pipelines/P-M16S/config.Late.txt (for post-obesity)
+6. ./pluma pipelines/PM16S/config.Early.txt (for pre-obesity)
+   ./pluma pipelines/PM16S/config.Late.txt (for post-obesity)
 
