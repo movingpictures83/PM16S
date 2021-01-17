@@ -1,0 +1,10 @@
+# Metagenomics analysis pipeline: Early
+Prefix pipelines/P-M16S/
+Kitty data/Early
+Plugin Mothur inputfile Early.mothur outputfile none
+Plugin CountTableProcessing inputfile Early outputfile abund.csv
+Pipeline pipelines/P-M16S/config.downstream.txt
+Kitty data/Late
+Plugin Mothur inputfile Late.mothur outputfile none
+Plugin CountTableProcessing inputfile Late outputfile abund.csv
+Pipeline pipelines/P-M16S/config.downstream.txt

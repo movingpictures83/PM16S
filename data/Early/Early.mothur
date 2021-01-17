@@ -71,7 +71,7 @@ remove.groups(count=pipelines/PM16S/data/Early/Early.trim.contigs.good.unique.go
 cluster.split(fasta=pipelines/PM16S/data/Early/Early.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.fasta, count=pipelines/PM16S/data/Early/Early.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.pick.count_table, taxonomy=pipelines/PM16S/data/Early/Early.trim.contigs.good.unique.good.filter.unique.precluster.pick.pds.wang.pick.pick.taxonomy, splitmethod=classify, taxlevel=4, cutoff=0.03)
 # 2. Count sequences in each OTU
 #make.shared(list=pipelines/PM16S/data/Early/Early.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.unique_list.list, count=pipelines/PM16S/data/Early/Early.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.pick.count_table, label=0.03)
-system(cp pipelines/PM16S/data/Early/Early.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.unique_list.list pipelines/PM16S/data/Early/Early.unique_list.list)
+system(cp pipelines/PM16S/data/Early/Early.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.list pipelines/PM16S/data/Early/Early.unique_list.list)
 make.shared(list=pipelines/PM16S/data/Early/Early.unique_list.list, count=pipelines/PM16S/data/Early/Early.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.pick.count_table, label=0.03)
 system(cp pipelines/PM16S/data/Early/Early.unique_list.shared pipelines/PM16S/data/Early/Early.shared)
 ###########################################################################
