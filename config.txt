@@ -1,4 +1,3 @@
-# Metagenomics analysis pipeline: Early
 Prefix pipelines/PM16S/
 Kitty data/Early
 Plugin Mothur inputfile Early.mothur outputfile none
