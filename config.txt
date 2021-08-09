@@ -1,9 +1,9 @@
 Prefix pipelines/PM16S/
+Plugin Mothur inputfile data/Early/Early.mothur outputfile none
+Plugin CountTableProcessing inputfile data/Early/Early outputfile data/Early/abund.csv
+Plugin Mothur inputfile data/Late/Late.mothur outputfile none
+Plugin CountTableProcessing inputfile data/Late/Late outputfile data/Late/abund.csv
 Kitty data/Early
-Plugin Mothur inputfile Early.mothur outputfile none
-Plugin CountTableProcessing inputfile Early outputfile abund.csv
 Pipeline pipelines/PM16S/config.downstream.txt
 Kitty data/Late
-Plugin Mothur inputfile Late.mothur outputfile none
-Plugin CountTableProcessing inputfile Late outputfile abund.csv
 Pipeline pipelines/PM16S/config.downstream.txt
